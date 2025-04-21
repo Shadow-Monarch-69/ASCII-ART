@@ -1,0 +1,60 @@
+body {
+    background: #000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #00FF00;
+    text-align: center;
+}
+.form-upload {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type=file], button {
+    background: transparent;
+    border: 1px solid #00FF00;
+    color: #00FF00;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+input[type=file]:hover, button:hover {
+    background: #00FF00;
+    color: #000;
+}
+.pre-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    overflow: hidden;
+}
+.pre-container pre {
+    white-space: pre;
+    font-size: calc(100vw / 200);
+    line-height: calc(100vw / 200);
+    margin: 0;
+}
+a.btn {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00FF00;
+    color: #00FF00;
+    text-decoration: none;
+    text-shadow: 0 0 5px #00FF00;
+}
+a.btn:hover {
+    background: #00FF00;
+    color: #000;
+}

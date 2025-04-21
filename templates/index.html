@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>⚡ Hacker ASCII Art ⚡</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>⚡ Hacker ASCII Art ⚡</h1>
+  <form class="form-upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" accept=".jpg,.jpeg,.png" required>
+    <button type="submit">Hack It!</button>
+  </form>
+</body>
+</html>

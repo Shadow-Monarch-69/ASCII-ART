@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASCII Hack Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="pre-container">
+    <pre>{{ ascii_art }}</pre>
+  </div>
+  <a class="btn" href="{{ url_for('download', filename=txt_file) }}">Download TXT</a>
+  <a class="btn" href="{{ url_for('download', filename=img_file) }}">Download JPEG</a>
+  <a class="btn" href="{{ url_for('download', filename=zip_file) }}">Download All</a>
+</body>
+</html>
